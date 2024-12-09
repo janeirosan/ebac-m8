@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&family=Hind:wght@300;400;500;600;700&family=Rambla:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+    --stone-50:#fafaf9;
+    --stone-100: #f5f5f4;
+    --stone-400: #a3a3a3;
+    --stone-600: #57534e;
+    --stone-800: #262626;
+    --clr-accent: #fbbf24;
+    --clr-2nd: #d97706;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hind', sans-serif;
+}
+
+/* input display appearance modifier */
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.container {
+    width: 960px;
+    margin: auto;
+}

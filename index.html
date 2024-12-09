@@ -1,13 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Leona Kingscholar Liberation Army</title>
+    <title>Lion Guard</title>
     <link rel="stylesheet" href="utils.css">
     <link rel="stylesheet" href="main.css">
 </head>
+
 <body>
-    
+    <header class="container">
+        <div class="lion-logo">
+            <h1>Lion Guard</h1>
+        </div>
+    </header>
+    <main class="container">
+        <div class="content">
+            <h2>Registration</h2>
+        <p class="desc">It isn't too difficult. Just add your name and phone number--we'll call you if Leona's honor needs to be
+            defended!<br>Down with the lazy lion believers!</p>
+        <form id="signup">
+            <p class="form-label">Name</p><input type="text" id="input-name" required placeholder="Name"
+                    id="name">
+            <p class="form-label">Phone Number</p><input id="input-phone" type="number" required
+                    placeholder="Don't put your real number" id="phone">
+            <button type="submit">Sign Up</button>
+        </form>
+        <h2>Recent Recruits</h2>
+        <table cellspacing="0">
+            <thead>
+                <tr>
+                    <th>
+                        Name
+                    </th>
+                    <th>
+                        Phone Number
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+        </div>
+    </main>
+
+    <script src="./main.js"></script>
 </body>
+
 </html>
